@@ -1,7 +1,7 @@
 :root {
     /* --primery-color: #08289c; */
     --primery-color: #101c36;
-    --primery-tex-color: #FFFFFF;
+    --primery-tex-color: #cccccc;;
     --color-sectio: #1b72bc;
     --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --animation-duration: 250ms;
@@ -41,8 +41,12 @@ img {
 
 body {
     background-color: var(--primery-color);
-
+   
+height: max-content;
 }
+
+
+
 
 .header-nav {
     position: relative;
@@ -126,7 +130,6 @@ font-size: 18px;
     opacity: 1;
 }
 .bio {
-
 background-image: linear-gradient(var(--primery-color),
  var(--color-sectio));
 }
