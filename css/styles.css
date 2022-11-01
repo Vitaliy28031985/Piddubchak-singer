@@ -1,5 +1,6 @@
 :root {
-    --primery-color: #08289c;
+    /* --primery-color: #08289c; */
+    --primery-color: #101c36;
     --primery-tex-color: #FFFFFF;
     --color-sectio: #1b72bc;
     --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
